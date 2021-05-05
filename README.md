@@ -16,4 +16,9 @@
 - Como transformar um código em uma classe com atributos e métodos.
 - A diferença entre None, ””, 0, e como o if do Python funciona.
 - O operador not.
+- Como construir e utilizar expressões regulares, ou RegEx utilizando o módulo re do Python.
+- Qual a diferença entre search e match.
+- O que são quantificadores e intervalos em RegEx.
+- A diferença entre parênteses (..) colchetes [...] na construção de padrões.
+- Como utilizar expressões regulares para fazer validações complexas.
 
