@@ -1,2 +1,4 @@
-# curso_alura_python_string
-Curso da Alura de String em Python: Extraindo informações de uma URL
+**Curso aLURA - String em Python: Extraindo informações de uma URL** - [https://cursos.alura.com.br/course/string-python-extraindo-informacoes-url)
+
+**Conceitos Abordados:**
+
