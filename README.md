@@ -11,4 +11,9 @@
 - Caso palavra não seja encontrada, o método find retorna -1.
 - O método len(string) retorna o tamanho (ou seja, a quantidade de caracteres) da nossa string.
 - Dica: o caractere que representa espaço em branco (“ “) também conta! Por exemplo: len(" ") retorna 1.
+- Podemos utilizar a palavra-chave raise para lançar uma exceção no nosso programa, informando ao usuário qual erro ocorreu.
+- Mais métodos de strings: str.replace e str.strip.
+- Como transformar um código em uma classe com atributos e métodos.
+- A diferença entre None, ””, 0, e como o if do Python funciona.
+- O operador not.
 
