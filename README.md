@@ -21,4 +21,7 @@
 - O que são quantificadores e intervalos em RegEx.
 - A diferença entre parênteses (..) colchetes [...] na construção de padrões.
 - Como utilizar expressões regulares para fazer validações complexas.
+- Métodos especiais são chamados pelo próprio interpretador Python de acordo com alguma instrução.
+- Como implementar métodos especiais em nossas classes para criar comportamentos customizados.
+- A diferença entre igualdade (==) e identidade (is).
 

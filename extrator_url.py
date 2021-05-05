@@ -28,10 +28,10 @@ class ExtratorURL:
 
     def get_url_parametros(self):
         indice_interrogacao = self.url.find("?")
-        url_parametros = self.url[:indice_interrogacao+1:]
+        url_parametros = self.url[indice_interrogacao+1:]
         return url_parametros
 
-    def get_valor_parametros(self, parametro_busca):
+    def get_valor_parametro(self, parametro_busca):
         indice_parametro = self.get_url_parametros().find(parametro_busca)
         indice_valor = indice_parametro + len(parametro_busca) + 1
         indice_e_comercial = self.get_url_parametros().find('&', indice_valor)
@@ -40,8 +40,13 @@ class ExtratorURL:
         else:
             valor = self.get_url_parametros()[indice_valor:indice_e_comercial]
 
-        return valor
+        return valor.lower()
 
+    def __len__(self):
+        return len(self.url)
 
+    def __str__(self):
+        return self.url + "\n" + "Parametros:" + self.get_url_parametros() + "\n" + "URL Base:" + self.get_url_base()
 
-
+    def __eq__(self, other):
+        return self.url == other.url
